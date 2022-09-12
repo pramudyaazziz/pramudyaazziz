@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-weight: 500, 600, 700, 800; */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+section {
+  min-height: 100vh;
+}
+
+input,
+textarea {
+  background-color: rgb(223, 222, 222) !important;
+}
+
+#home {
+  /* min-height: 90vh; */
+  display: flex;
+}
+
+#home .home-content {
+  margin: auto;
+}
+
+#contact {
+  /* display: flex; */
+  min-height: 70vh;
+}
+
+#contact .container {
+  /* margin: auto; */
+}
+
+.active {
+  color: #4c00db !important;
+}
+
+.navbar-brand.logo {
+  font-size: 26px;
+  font-weight: 600;
+  color: #8a4ff6;
+  text-shadow: 2px 2px 24px;
+}
+
+.toggle .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(76, 0, 219, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.toggle.navbar-toggler:hover .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(106, 43, 223, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.toggle.navbar-toggler:focus {
+  border: 2px solid rgb(76, 0, 219);
+}
+
+ul.navbar-nav li.nav-item a {
+  color: rgb(204, 204, 204);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+ul.navbar-nav li.nav-item:hover a {
+  color: #6626de;
+}
+
+.profile {
+  display: block;
+  width: 160px;
+  margin: 30px auto;
+  border: 4px solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(0deg, #a45fff, #0004ff) border-box;
+}
+
+.content {
+  color: rgb(204, 204, 204);
+}
+
+.content h4 {
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+}
+
+.name {
+  /* color: #4c00db; */
+  font-size: 38px;
+  font-weight: 700;
+  text-shadow: 3px -3px 2px rgba(140, 62, 243, 0.4);
+  background: -webkit-linear-gradient(45deg, #985ae9, #2a2dcb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight {
+  color: #4c00db;
+}
+
+.download:hover {
+  /* color: #4c00db; */
+  background-color: rgb(66, 60, 60);
+}
+.download {
+  box-shadow: 0px 0px 6px 5px rgb(31, 31, 31);
+}
+
+.social-media {
+  margin-top: 50px;
+}
+
+.social-media a i {
+  margin: 0 10px;
+  font-size: 28px;
+  color: rgb(121, 121, 121);
+}
+
+.social-media a:hover i {
+  color: rgb(203, 202, 202);
+}
+
+.sub-heading {
+  margin: 60px 0 20px 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(228, 228, 228);
+  text-shadow: 4px -2px 1px rgb(72, 71, 71);
+}
+
+.sub-heading ~ div p {
+  color: rgb(210, 210, 210);
+  font-size: 15px;
+  text-align: justify;
+}
+
+.sub-heading-2 {
+  color: rgb(228, 228, 228);
+  font-weight: 700;
+}
+
+.roadmap {
+  width: 5px;
+  height: 140px;
+  background-color: #4c00db;
+  position: relative;
+}
+
+.roadmap::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 5px solid #4c00db;
+  background-color: white;
+  position: absolute;
+  top: -8px;
+  right: -8.6px;
+}
+
+.roadmap::after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 5px solid #4c00db;
+  background-color: white;
+  position: absolute;
+  bottom: -8px;
+  right: -8.6px;
+}
+
+.content-roadmap {
+  margin: 35px 0 0 0;
+}
+
+.roadmap-title {
+  color: rgb(210, 210, 210);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.roadmap-content {
+  color: rgb(161, 161, 161);
+  font-size: 16px;
+  font-family: 500;
+}
+
+.tabs-button li.nav-item button.nav-link {
+  color: #6626de;
+  border: 2px solid transparent;
+  margin: 5px;
+  font-size: 14px;
+  padding: 3px;
+}
+
+.tabs-button li.nav-item:hover button.nav-link {
+  color: rgb(210, 210, 210);
+  background-color: rgb(24, 23, 23);
+  border: 2px solid #6626de;
+}
+
+.tabs-button li.nav-item {
+  margin: -2px 5px -2px 5px;
+}
+
+.tabs-button li.nav-item button.nav-link.active {
+  color: rgb(210, 210, 210) !important;
+  background-color: #6626de;
+}
+
+.card {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  background-color: #171822;
+  transition: 0.2s;
+}
+
+.card:hover {
+  background-color: #1d1e2a;
+  transform: translateY(-10px);
+}
+
+.card .card-body {
+  width: 100%;
+  height: 100%;
+}
+
+.card .card-body img {
+  height: 100%;
+}
+
+.contact {
+  background-color: #0d122b;
+  color: rgb(210, 210, 210);
+}
+
+.socials {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.social-item {
+  color: #4c00db;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.social-item:hover {
+  color: #bdbdbd;
+  transform: translateY(-3px) scale(1.03, 1.03);
+}
+
+.social-item span a {
+  line-height: 35px;
+  color: rgb(210, 210, 210);
+  text-decoration: none;
+}
+
+.social-item i {
+  font-size: 24px;
+}
+
+.card.projects {
+  padding: 0px;
+  height: 200px;
+}
+.card.projects:hover {
+  transform: translateY(0px);
+}
+
+.card.projects:hover .card-body img {
+  transform: scale(1.3);
+  opacity: 0.9;
+}
+
+.card.projects .card-body {
+  width: 100%;
+  padding: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card.projects .card-body img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  transition: 1s;
+}
+
+.card.projects .card-body img ~ .footer {
+  width: 0%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.5s;
+}
+
+.card.projects .card-body:hover img ~ .footer {
+  width: 100%;
+}
+
+.card.projects .card-body img ~ .footer .title {
+  width: 100%;
+  display: flex;
+  margin-top: 7px;
+  overflow: hidden;
+}
+.card.projects .card-body img ~ .footer .sub-title {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.card.projects .card-body img ~ .footer small {
+  color: #dfdede;
+}
+.card.projects .card-body img ~ .footer .title span {
+  color: #dfdede;
+}
+
+.card.projects .card-body img ~ .footer .icon {
+  margin-top: 12px;
+}
+
+.card.projects .card-body img ~ .footer i {
+  font-size: 24px;
+  color: #bdbdbd;
+}
+
+.card.projects .card-body img ~ .footer i:hover {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+  .sub-heading-2 {
+    margin-top: 20px;
+  }
+}
